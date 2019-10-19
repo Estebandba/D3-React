@@ -60,9 +60,6 @@ export default class D3Chart {
                 .attr('width', x.bandwidth)
                 .attr('height', d => HEIGHT - y(d.height))
                 .attr('fill', 'grey')
-
-
-            console.log(data);
         })
 
 
